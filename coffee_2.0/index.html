@@ -1,0 +1,134 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[#FAF9F6]">
+    <nav>
+      <ul
+        class="m-2 mx-3 flex justify-center items-center bg-[#FFEAC5] h-[4rem] rounded-3xl"
+      >
+        <li
+          class="inline absolute left-8 text-4xl mt-2 text-[#603F26] font-extrabold font-wavy hover:text-orange-700"
+        >
+          <a href="">COFFEE</a>
+        </li>
+        <li class="inline bg-orange-500 p-2 rounded-3xl px-4 text-white">
+          <a href="">Life & News</a>
+        </li>
+        <li
+          class="ml-2 inline hover:bg-orange-500 hover:text-white duration-300 ease-in-out bg-white p-2 rounded-3xl px-4 text-[#6C4E31]"
+        >
+          <a href="">About</a>
+        </li>
+        <li
+          class="ml-2 inline hover:bg-orange-500 hover:text-white duration-300 ease-in-out bg-white p-2 rounded-3xl px-4 text-[#6C4E31]"
+        >
+          <a href="">Store</a>
+        </li>
+        <li
+          class="ml-2 inline hover:bg-orange-500 hover:text-white duration-300 ease-in-out bg-white p-2 rounded-3xl px-4 text-[#6C4E31]"
+        >
+          <a href="">Recipes</a>
+        </li>
+        <li
+          class="absolute right-5 inline bg-orange-500 p-3 rounded-3xl text-white hover:bg-orange-700"
+        >
+          <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="grid grid-cols-5 grid-rows-2 h-[89vh] m-5 gap-2">
+      <div class="bg-[#603F26] row-span-2 col-span-3 rounded-3xl">
+        <img
+          src="images/coffee-l.png"
+          class="mix-blend-multiply rounded-3xl w-full h-full"
+        />
+        <h1
+          class="absolute text-9xl text-white top-60 opacity-70 text-center ml-20 font-wavy"
+        >
+          COFFEE <br />
+          VERSE!
+        </h1>
+        <div class="absolute bottom-10 left-10 flex space-x-4">
+          <div class="p-0 shadow-lg w-[75px] h-[75px]">
+            <img
+              src="images/card-1.png"
+              class="rounded-xl w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-0 rounded-xl shadow-xl w-[75px] h-[75px]">
+            <img
+              src="images/card-2.png"
+              class="rounded-xl w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-0 rounded-xl shadow-lg w-[75px] h-[75px]">
+            <img
+              src="images/card-3.png"
+              class="rounded-xl w-full h-full object-cover"
+            />
+          </div>
+          <button
+            class="absolute mt-[10px] left-[500px] bg-green-700 hover:bg-green-900 text-white p-1 px-10 rounded-full"
+          >
+            100% Organic
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="bg-[#FFCF96] rounded-3xl col-span-2 flex flex-col items-center"
+      >
+        <p class="font-wavy text-5xl text-[#603F26] mt-6">Top Picks</p>
+        <img src="images/coffee-tr.png" class="mix-blend-multiply w-[150px]" />
+        <div class="flex flex-row mt-5">
+          <button
+            class="hover:bg-orange-700 hover:text-white p-2 px-4 rounded-3xl font-wavy text-[#603f26] font-bold bg-[#FFEAC5]"
+          >
+            Explore
+          </button>
+          <li
+            class="bg-orange-500 px-3 py-2 ml-3 rounded-3xl text-white hover:bg-orange-700 list-none"
+          >
+            <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+          </li>
+        </div>
+        <div
+          class="font-bold font-sans absolute bg-yellow-500 text-white rounded-full p-2 text-lg mt-20 ml-20 top-40"
+        >
+          <p class="">$10</p>
+        </div>
+      </div>
+
+      <div
+        class="bg-lime-200 rounded-3xl col-span-2 flex flex-col items-center"
+      >
+        <p class="font-wavy text-5xl text-black mt-6">Best Deals</p>
+        <img src="images/coffee-br.jpeg" class="mix-blend-multiply w-[130px]" />
+        <div class="flex flex-row mt-7">
+          <button
+            class="hover:bg-orange-700 hover:text-white p-2 px-4 rounded-3xl font-wavy text-[#603f26] font-bold bg-[#FFEAC5]"
+          >
+            Explore
+          </button>
+          <li
+            class="bg-orange-500 px-3 py-2 ml-3 rounded-3xl text-white hover:bg-orange-700 list-none"
+          >
+            <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+          </li>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
