@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.selected-menu {
+  color: rgb(147 51 234 / var(--tw-text-opacity, 1));
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.veiwport,
+body {
+  background-size: 80px 80px;
+  background-color: rgb(35, 35, 35);
+  background-image: linear-gradient(
+      to right,
+      rgb(44, 44, 44) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgb(44, 44, 44) 1px, transparent 1px);
+}
