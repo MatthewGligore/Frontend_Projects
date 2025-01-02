@@ -24,6 +24,8 @@ This repository contains a collection of landing pages created using HTML, CSS, 
    - [View Deployment](https://superlative-kitten-58bc47.netlify.app/)
 10. **Hoodie**
     - [View Deployment](https://idyllic-platypus-0b69c4.netlify.app/)
+11. **Todo**
+    - [View Deployment](https://eloquent-platypus-efab30.netlify.app/)
 
 ## Technologies Used
 
