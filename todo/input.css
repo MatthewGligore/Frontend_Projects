@@ -3,21 +3,25 @@
 @tailwind utilities;
 
 .selected-menu {
-  color: rgb(147 51 234 / var(--tw-text-opacity, 1));
+  color: #fff;
 }
 
 button:hover {
   opacity: 0.8;
 }
 
+.task:hover {
+  opacity: 0.8;
+  background-color: rgba(242, 242, 242, 0.09);
+  padding: 30px;
+}
+
 .veiwport,
 body {
   background-size: 80px 80px;
-  background-color: rgb(35, 35, 35);
-  background-image: linear-gradient(
-      to right,
-      rgb(44, 44, 44) 1px,
-      transparent 1px
-    ),
-    linear-gradient(to bottom, rgb(44, 44, 44) 1px, transparent 1px);
+  background-color: #1e1e1e;
+}
+
+.tasks {
+  background-color: rgba(242, 242, 242, 0.09);
 }
